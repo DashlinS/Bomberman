@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
+}
+a:hover, a:link, a:active, a:visited {
+  color: inherit;
+}
+
+body {
+  background: url(../images/background.jpg) ;
+  background-size: cover;
+}
+
+.container {
+  background-color: rgba(226, 180, 180, 0.822);
+  height: 650px;
+  width: 1400px;
+  margin: 20px auto;
+  border: 8px solid rgb(25, 0, 255);
+  position: relative;
+}
+
+.topContainer .logo {
+  width: 450px;
+  margin-left: 32%;
+}
+
+.remove {
+  display: none;
+}
+
+#laser1 {
+  width: 33px;
+  position: absolute;
+  /* left: 150px; */
+  float: right;
+  transition: all 1s ease-in-out;
+  animation: ani 4s infinite;
+  transform: rotateZ(90deg);
+}
+
+/* @keyframes ani {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 1000px;
+  }
+  100% {
+    left: 0;
+  }
+}  */
+#laser2 {
+  width: 33px;
+  position: absolute;
+  top:150px;
+  /* margin-top: 100px; */
+  transition: all 1s ease-in-out;
+  animation: ani2 4s infinite;
+  transform: rotateZ(90deg);
+}
+/* @keyframes ani2 {
+   0% {
+    left: 0;
+  }
+  50% {
+    left: 1000px;
+  }
+  100% {
+    left: 0;
+  }
+} */
+#laser3 {
+  width: 33px;
+  right: 135px;
+  position: absolute;
+  /* margin-top: 100px; */
+  transition: all 1s ease-in-out;
+  animation: ani3 4s infinite;
+  transform: rotateZ(90deg);
+}
+
+/* @keyframes ani3 {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 1000px;
+  }
+  100% {
+    left: 0;
+  }
+} */
+.midFloat, .firstFloat, .secondFloat {
+  float: left;
+  width: 32.333%;
+  height: 498px;
+}
+
+.firstFloat {
+  width: 25%;
+}
+.midFloat {
+  width: 44%;
+  position: relative;
+}
+.secondFloat {
+  width: 30%;
+}
+
+h4{
+  text-align: center;
+  margin-top: 170px;
+  font-size: 1.5rem;
+  color: rgba(25, 0, 255, 0.644);
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 60px;
+  color:rgba(236, 15, 15, 0.774);
+  margin-left: 30px;
+}
+.topContainer {
+  width: 100%;
+}
+#whiteBomber {
+  width: 252px;
+  margin-left: 30px;
+  
+}
+#prettyBomber {
+  width: 388px;
+  margin-left: 33px;
+}
+
+.midFloat img {
+  width: 120px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.mainImage2 {
+  width: 80px;
+}

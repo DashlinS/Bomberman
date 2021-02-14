@@ -1,0 +1,132 @@
+@media only screen and (max-width: 500px){
+  body {
+    background-size: contain;
+  }
+  .container {
+    width: 400px;
+    height: 630px;
+  }
+
+
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  .topContainer .logo{
+    width: 250px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+  }
+
+  #whiteBomber {
+    width: 100px;
+    margin-top: 120px;
+  }
+  #prettyBomber {
+    width: 150px;
+    margin: 120px 0px 0px -70px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 750px){
+  body {
+    background-size: contain;
+  }
+  .container {
+    width: 400px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  .topContainer .logo{
+    width: 250px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+  }
+
+  #whiteBomber {
+    width: 100px;
+    margin-top: 120px;
+  }
+  #prettyBomber {
+    width: 150px;
+    margin: 120px 0px 0px -70px;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 950px){
+  .container {
+    width: 700px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  .topContainer .logo{
+    width: 350px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+  }
+
+  #whiteBomber {
+    width: 100px;
+    margin-top: 180px;
+    margin-left: 90%;
+  }
+  #prettyBomber {
+    width: 150px;
+    margin: 180px 0px 0px -90px;
+  }
+}
+
+@media (min-width: 951px) and (max-width: 1150px){
+    .container {
+    width: 700px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  .topContainer .logo{
+    width: 350px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+  }
+
+  #whiteBomber {
+    width: 100px;
+    margin-top: 180px;
+    margin-left: 90%;
+  }
+  #prettyBomber {
+    width: 150px;
+    margin: 180px 0px 0px -90px;
+  }
+}
+@media (min-width:1151px) and (max-width: 1350px){
+    .container {
+    width: 900px;
+  }
+   h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  .topContainer .logo{
+    width: 400px;
+    margin-left: 27%;
+    margin-bottom: 20px;
+  }
+  #whiteBomber {
+    width: 100px;
+    margin-top: 180px;
+    margin-left: 90%;
+  }
+  #prettyBomber {
+    width: 150px;
+    margin: 180px 0px 0px -90px;
+  }
+}
